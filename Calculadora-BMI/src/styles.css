@@ -1,8 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
 body{
-  background-color: rgb(121, 79, 160);  
+  background-image: url('assets/imagenes/fitness-1882721_1920.jpg');
 }
 
 .titulo{
-  font-family: 'Do Hyeon', sans-serif;
+  font-family: 'Baloo Tammudu 2', cursive;
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 45px;
+}
+
+.row{
+  margin: 20px;
+}
+
+.btn-color{
+  background-color: rgb(218, 82, 58);
+  border-color: tan;
+  border-radius: 25px;
+  width: 100%;
+}
+
+.btn-color:hover{
+  background-color: rgb(228, 66, 37);
+  border-color: rgb(231, 205, 170);
+  border-radius: 25px;
+  width: 100%;
 }
